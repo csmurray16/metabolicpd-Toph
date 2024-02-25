@@ -134,7 +134,7 @@ def define_matrix_by_hand():
     return s_matrix
 
 if __name__ == '__main__':
-    matrix_file_name = 'Updated PD Matrix.xlsx'
+    matrix_file_name = 'data/Updated PD Matrix.xlsx'
     # life_matrix = LIFE_Matrix(matrix_file_name)
     matrix_df = pd.read_excel(matrix_file_name, sheet_name='Hyper edges')
     node_names = matrix_df['metabolite\\edge'].values

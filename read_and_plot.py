@@ -163,10 +163,10 @@ def plot_difference(dr_healthy, dr_disease):
 
 if __name__ == '__main__':
     # define the file names that we want to compare
-    low_gba_file_name = 'low_gba_12h.xlsx'
-    high_gba_file_name = 'high_gba_12h.xlsx'
-    low_mutant_lrrk2_file_name = 'low_mutant_lrrk2_12h.xlsx'
-    high_mutant_lrrk2_file_name = 'high_mutant_lrrk2_12h.xlsx'
+    low_gba_file_name = 'data/low_gba_12h.xlsx'
+    high_gba_file_name = 'data/high_gba_12h.xlsx'
+    low_mutant_lrrk2_file_name = 'data/low_mutant_lrrk2_12h.xlsx'
+    high_mutant_lrrk2_file_name = 'data/high_mutant_lrrk2_12h.xlsx'
 
     # declare the data reader objects
     dr_low_gba = Data_Reader(low_gba_file_name)

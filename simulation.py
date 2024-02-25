@@ -178,7 +178,7 @@ class LIFE_Network:
 if __name__ == "__main__":
     flux = np.random.default_rng().uniform(0.1, 0.8, 28)
     # network = LIFE_Network("data/simple_pd_network.xlsx", mass=None, flux=flux)
-    network = LIFE_Network("simple_pd_network.xlsx", mass=None, flux=None)
+    network = LIFE_Network("data/simple_pd_network.xlsx", mass=None, flux=None)
 
     # To fix clearance_0 at 0.0 for whole runtime
     # the masses need to be in the order of indices not the order of metabolite names

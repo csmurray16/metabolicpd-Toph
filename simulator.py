@@ -385,7 +385,7 @@ def metabolites_func_to_int(value_array, t, sym_matrix, sym_flux, sym_metabolite
 
 
 if __name__ == '__main__':
-    file_name = 'simple_pd_network.xlsx'
+    file_name = 'data/simple_pd_network.xlsx'
     sim_obj = LIFE_Simulator(file_name)
 
     metas_to_fix = ['gba_0']
